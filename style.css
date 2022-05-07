@@ -38,8 +38,8 @@ li {
 }
 
 .header, .top {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .header, .top, .footer {
@@ -54,7 +54,8 @@ li {
 
 .top {
 	display: flex;
-	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	justify-content: space-between;
 }
 
