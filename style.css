@@ -86,7 +86,7 @@ button {
 	background-color: #3882F6;
 	color: white;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 600;
 	border-radius: 8px;
 }
 
@@ -119,4 +119,58 @@ button {
 
 .info-text {
 	max-width: 150px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 200px;
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+}
+
+.quoter {
+	align-self: flex-end;
+	font-weight: bold;
+}
+
+.action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 150px;
+}
+
+.modal {
+	color: white;
+	background-color: #3882F6;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 100px;
+	border-radius: 10px;
+	gap: 50px;
+	align-items: center;
+}
+
+.modal-right button {
+	border: 2px solid white;
+}
+
+.modal-title {
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+.modal-text {
+	font-size: 12px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 20px 0;
 }
